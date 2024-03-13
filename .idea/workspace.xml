@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/destination.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/MethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/two/ValidationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dXGFaDsCpRMgJ1Spn9H7AsvuFN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,12 +42,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnnotationExample.executor": "Run",
     "Application.JavaIOandNIO.Main.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.ReflectionandAnnotations.Main.executor": "Run",
+    "Application.ValidationExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -55,13 +62,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="JavaIOandNIO.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.Main" />
+  <component name="RunManager" selected="Application.ValidationExample">
+    <configuration name="AnnotationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionandAnnotations.two.AnnotationExample" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIOandNIO.*" />
+          <option name="PATTERN" value="ReflectionandAnnotations.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,19 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="javacoeAdvanced" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fibonacci.Main" />
+    <configuration name="JavaIOandNIO.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.Main" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fibonacci.*" />
+          <option name="PATTERN" value="JavaIOandNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReflectionandAnnotations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionandAnnotations.Main" />
+      <module name="javacoeAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReflectionandAnnotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionandAnnotations.two.ValidationExample" />
+      <module name="javacoeAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReflectionandAnnotations.two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidationExample" />
+        <item itemvalue="Application.AnnotationExample" />
+        <item itemvalue="Application.ReflectionandAnnotations.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.JavaIOandNIO.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +153,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710146915503</updated>
-      <workItem from="1710146916756" duration="4912000" />
+      <workItem from="1710146916756" duration="5834000" />
+      <workItem from="1710318870739" duration="1746000" />
     </task>
     <servers />
   </component>
