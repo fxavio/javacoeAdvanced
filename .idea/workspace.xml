@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaMemoryModel/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaMemoryModel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OutOfMemoryExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.OutOfMemoryExample.executor": "Run",
     "Application.ParallelMatrixMultiplication.executor": "Run",
     "Application.ParallelSummation (1).executor": "Run",
     "Application.ParallelSummation.executor": "Run",
@@ -72,7 +71,7 @@
       <recent name="ReflectionandAnnotations.two" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.OutOfMemoryExample">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaMemoryModel.Main" />
       <module name="javacoeAdvanced" />
@@ -86,25 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OutOfMemoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OutOfMemoryExample" />
+      <module name="javacoeAdvanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelMatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrency.ParallelMatrixMultiplication2.ParallelMatrixMultiplication" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="concurrency.ParallelMatrixMultiplication2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelSummation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ParallelSummation.ParallelSummation" />
-      <module name="javacoeAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrency.ParallelSummation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OutOfMemoryExample" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ParallelMatrixMultiplication" />
         <item itemvalue="Application.concurrency.ParallelMatrixMultiplication.Main" />
         <item itemvalue="Application.ParallelSummation (1)" />
-        <item itemvalue="Application.ParallelSummation" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710146915503</updated>
       <workItem from="1710146916756" duration="5834000" />
-      <workItem from="1710318870739" duration="11248000" />
+      <workItem from="1710318870739" duration="11996000" />
     </task>
     <servers />
   </component>
