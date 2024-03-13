@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/MethodInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReflectionandAnnotations/two/ValidationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelFibonacci/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelFibonacci/ParallelSummation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelFibonacci/otherex/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelFibonacci/otherex/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +42,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnnotationExample.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
     "Application.JavaIOandNIO.Main.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.ParallelSummation.executor": "Run",
     "Application.ReflectionandAnnotations.Main.executor": "Run",
     "Application.ValidationExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -62,13 +63,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidationExample">
-    <configuration name="AnnotationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectionandAnnotations.two.AnnotationExample" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ReflectionandAnnotations.two" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ParallelSummation (1)">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelFibonacci.Fibonacci" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReflectionandAnnotations.two.*" />
+          <option name="PATTERN" value="ParallelFibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIOandNIO.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelFibonacci.otherex.Main" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIOandNIO.*" />
+          <option name="PATTERN" value="ParallelFibonacci.otherex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.Main2" />
+    <configuration name="ParallelSummation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelFibonacci.ParallelSummation" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIOandNIO.*" />
+          <option name="PATTERN" value="ParallelFibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionandAnnotations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectionandAnnotations.Main" />
+    <configuration name="ParallelSummation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelFibonacci.ParallelSummation" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReflectionandAnnotations.*" />
+          <option name="PATTERN" value="ParallelFibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelSummation (1)" />
+        <item itemvalue="Application.ParallelSummation" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ValidationExample" />
-        <item itemvalue="Application.AnnotationExample" />
-        <item itemvalue="Application.ReflectionandAnnotations.Main" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.JavaIOandNIO.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710146915503</updated>
       <workItem from="1710146916756" duration="5834000" />
-      <workItem from="1710318870739" duration="1746000" />
+      <workItem from="1710318870739" duration="5905000" />
     </task>
     <servers />
   </component>
