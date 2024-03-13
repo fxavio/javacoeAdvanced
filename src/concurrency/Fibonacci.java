@@ -1,4 +1,4 @@
-package ParallelFibonacci;
+package concurrency;
 
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.ForkJoinPool;

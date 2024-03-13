@@ -1,4 +1,4 @@
-package ParallelFibonacci.ParallelSummation;
+package concurrency.ParallelSummation;
 
 
 import java.util.concurrent.RecursiveTask;

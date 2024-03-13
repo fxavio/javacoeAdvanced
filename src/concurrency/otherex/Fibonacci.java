@@ -1,4 +1,4 @@
-package ParallelFibonacci.otherex;
+package concurrency.otherex;
 import java.util.concurrent.RecursiveTask;
 class Fibonacci extends RecursiveTask<Integer> {
     final int n;

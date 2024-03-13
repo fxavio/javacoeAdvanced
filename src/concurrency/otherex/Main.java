@@ -1,6 +1,4 @@
-package ParallelFibonacci.otherex;
-
-import ParallelFibonacci.otherex.Fibonacci;
+package concurrency.otherex;
 
 import java.util.concurrent.ForkJoinPool;
 
