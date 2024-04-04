@@ -6,8 +6,8 @@ import java.nio.channels.FileChannel; // Import the FileChannel class
 import java.util.logging.Level; // Import the Level class for logging
 import java.util.logging.Logger; // Import the Logger class for logging
 
-public class Main {
-    private static final Logger LOGGER = Logger.getLogger(Main.class.getName()); // Create a Logger instance
+public class ReadMain {
+    private static final Logger LOGGER = Logger.getLogger(ReadMain.class.getName()); // Create a Logger instance
 
     public static void main(String[] args) {
         try {

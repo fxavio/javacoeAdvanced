@@ -6,8 +6,8 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.logging.Logger;
 
-public class Main2 {
-    private static final Logger LOGGER = Logger.getLogger(Main.class.getName()); // Create a Logger instance
+public class CopyMain {
+    private static final Logger LOGGER = Logger.getLogger(ReadMain.class.getName()); // Create a Logger instance
     public static void main(String[] args) {
         String sourceFile = "src/JavaIOandNIO/source.txt";
         String destinationFile = "src/JavaIOandNIO/destination.txt";

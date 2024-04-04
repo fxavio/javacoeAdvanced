@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OutOfMemoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/WriteMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/write.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIOandNIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIOandNIO/ReadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIOandNIO/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIOandNIO/CopyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnnotationExample.executor": "Run",
+    "Application.CopyMain.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.FileWriteWithNIO.executor": "Run",
+    "Application.IgCase.executor": "Run",
     "Application.JavaIOandNIO.Main.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
@@ -49,12 +57,14 @@
     "Application.ParallelSummation.executor": "Run",
     "Application.ReflectionandAnnotations.Main.executor": "Run",
     "Application.ValidationExample.executor": "Run",
+    "Application.WriteMain.executor": "Run",
     "Application.concurrency.ParallelMatrixMultiplication.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PRO_TECH/upskill/javacoeAdvanced/src/JavaIOandNIO",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,17 +77,23 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ParallelFibonacci.ParallelSummation" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PRO_TECH\upskill\javacoeAdvanced\src\JavaIOandNIO" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ReflectionandAnnotations.two" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JavaIOandNIO" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.OutOfMemoryExample">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaMemoryModel.Main" />
+  <component name="RunManager" selected="Application.ValidationExample">
+    <configuration name="CopyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.CopyMain" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaMemoryModel.*" />
+          <option name="PATTERN" value="JavaIOandNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutOfMemoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OutOfMemoryExample" />
+    <configuration name="IgCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IgCase" />
       <module name="javacoeAdvanced" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelMatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ParallelMatrixMultiplication2.ParallelMatrixMultiplication" />
+    <configuration name="ReadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.ReadMain" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.ParallelMatrixMultiplication2.*" />
+          <option name="PATTERN" value="JavaIOandNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelSummation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ParallelSummation.ParallelSummation" />
+    <configuration name="ValidationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionandAnnotations.two.ValidationExample" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.ParallelSummation.*" />
+          <option name="PATTERN" value="ReflectionandAnnotations.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="concurrency.ParallelMatrixMultiplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ParallelMatrixMultiplication.Main" />
+    <configuration name="WriteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.WriteMain" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.ParallelMatrixMultiplication.*" />
+          <option name="PATTERN" value="JavaIOandNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OutOfMemoryExample" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ParallelMatrixMultiplication" />
-        <item itemvalue="Application.concurrency.ParallelMatrixMultiplication.Main" />
-        <item itemvalue="Application.ParallelSummation (1)" />
+        <item itemvalue="Application.ValidationExample" />
+        <item itemvalue="Application.WriteMain" />
+        <item itemvalue="Application.CopyMain" />
+        <item itemvalue="Application.ReadMain" />
+        <item itemvalue="Application.IgCase" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +174,18 @@
       <updated>1710146915503</updated>
       <workItem from="1710146916756" duration="5834000" />
       <workItem from="1710318870739" duration="11996000" />
+      <workItem from="1710402739085" duration="351000" />
+      <workItem from="1710404420823" duration="573000" />
+      <workItem from="1711101037631" duration="3190000" />
+      <workItem from="1711274824342" duration="2327000" />
+      <workItem from="1711348959357" duration="1192000" />
+      <workItem from="1711393223767" duration="650000" />
+      <workItem from="1711426844044" duration="641000" />
+      <workItem from="1711512628736" duration="1202000" />
+      <workItem from="1711610341195" duration="1181000" />
+      <workItem from="1711956668902" duration="1787000" />
+      <workItem from="1712042846078" duration="1373000" />
+      <workItem from="1712214493088" duration="2566000" />
     </task>
     <servers />
   </component>
