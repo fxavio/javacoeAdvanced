@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/WriteMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIOandNIO/write.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/singleton/Checklist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/singleton/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/singleton/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaIOandNIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIOandNIO/ReadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaIOandNIO/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIOandNIO/CopyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +42,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnnotationExample.executor": "Run",
+    "Application.ConfigurationManager.executor": "Run",
     "Application.CopyMain.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FileWriteWithNIO.executor": "Run",
     "Application.IgCase.executor": "Run",
     "Application.JavaIOandNIO.Main.executor": "Run",
+    "Application.Logger.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
@@ -84,16 +85,17 @@
       <recent name="ReflectionandAnnotations.two" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designPatterns.singleton" />
       <recent name="JavaIOandNIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidationExample">
-    <configuration name="CopyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.CopyMain" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Checklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.Checklist" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIOandNIO.*" />
+          <option name="PATTERN" value="designPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,19 +103,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IgCase" />
+    <configuration name="ConfigurationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.singleton.ConfigurationManager" />
       <module name="javacoeAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.ReadMain" />
+    <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.singleton.Logger" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaIOandNIO.*" />
+          <option name="PATTERN" value="designPatterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.singleton.Main" />
+      <module name="javacoeAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIOandNIO.WriteMain" />
-      <module name="javacoeAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaIOandNIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Logger" />
+        <item itemvalue="Application.ConfigurationManager" />
+        <item itemvalue="Application.Checklist" />
         <item itemvalue="Application.ValidationExample" />
-        <item itemvalue="Application.WriteMain" />
-        <item itemvalue="Application.CopyMain" />
-        <item itemvalue="Application.ReadMain" />
-        <item itemvalue="Application.IgCase" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +193,11 @@
       <workItem from="1711610341195" duration="1181000" />
       <workItem from="1711956668902" duration="1787000" />
       <workItem from="1712042846078" duration="1373000" />
-      <workItem from="1712214493088" duration="2566000" />
+      <workItem from="1712214493088" duration="4663000" />
+      <workItem from="1712562100229" duration="2266000" />
+      <workItem from="1712648486512" duration="385000" />
+      <workItem from="1713016619815" duration="24000" />
+      <workItem from="1714026689446" duration="6349000" />
     </task>
     <servers />
   </component>
