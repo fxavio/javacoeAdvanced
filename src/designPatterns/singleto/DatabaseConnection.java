@@ -1,4 +1,4 @@
-package designPatterns.singleton;
+package designPatterns.singleto;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,7 +24,7 @@ public class DatabaseConnection {
         Properties prop = new Properties();
         try {
             // Load the properties from config.properties file
-            InputStream input = getClass().getClassLoader().getResourceAsStream("designPatterns/singleton/config.properties");
+            InputStream input = getClass().getClassLoader().getResourceAsStream("designPatterns/singleto/config.properties");
             if (input == null) {
                 throw new FileNotFoundException("config.properties not found in the classpath");
             }

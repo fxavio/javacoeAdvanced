@@ -1,4 +1,4 @@
-package designPatterns.singleton;
+package designPatterns.singleto;
 
 import java.util.Properties;
 

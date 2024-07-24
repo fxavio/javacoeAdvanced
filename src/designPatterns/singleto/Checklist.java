@@ -1,4 +1,4 @@
-package designPatterns.singleton;
+package designPatterns.singleto;
 
 public class Checklist {
     public static void main(String...args){
