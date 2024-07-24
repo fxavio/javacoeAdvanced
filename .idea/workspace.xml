@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/factoryPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/factoryPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/factoryPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/factoryPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/factoryPattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategyPattern/BasicUserStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategyPattern/PremiumUserStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategyPattern/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategyPattern/UserStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/ClothingProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/ElectronicsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/ProductDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/ProductDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/SealedProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Products/SwitchExpressionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/singleton/Checklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleto/Checklist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/singleton/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleto/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleto/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/singleton/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleto/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab3/ecommerceOrder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab3/ecommerceOrder/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab3/ecommerceOrder/OrderProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +55,11 @@
     "Application.ParallelSummation (1).executor": "Run",
     "Application.ParallelSummation.executor": "Run",
     "Application.ProductDemo.executor": "Run",
+    "Application.ProductDescription.executor": "Run",
     "Application.ReflectionandAnnotations.Main.executor": "Run",
     "Application.ShapeFactory.executor": "Run",
     "Application.Singleton.executor": "Run",
+    "Application.SwitchExpressionDemo.executor": "Run",
     "Application.UserContext.executor": "Run",
     "Application.ValidationExample.executor": "Run",
     "Application.WriteMain.executor": "Run",
@@ -115,7 +96,20 @@
       <recent name="JavaIOandNIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchExpressionDemo">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.ecommerceOrder.Main" />
+      <module name="javacoeAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.ecommerceOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab3.Products.ProductDemo" />
       <module name="javacoeAdvanced" />
@@ -135,19 +129,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lab3.Products.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPatterns.singleton.Singleton" />
-      <module name="javacoeAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designPatterns.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SwitchExpressionDemo" />
         <item itemvalue="Application.ProductDescription" />
         <item itemvalue="Application.ProductDemo" />
         <item itemvalue="Application.UserContext" />
-        <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +228,7 @@
       <workItem from="1718697574922" duration="1174000" />
       <workItem from="1718780676455" duration="565000" />
       <workItem from="1718873757112" duration="561000" />
-      <workItem from="1721809635641" duration="1673000" />
+      <workItem from="1721809635641" duration="5787000" />
     </task>
     <servers />
   </component>
