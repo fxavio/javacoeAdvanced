@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/CustomExceptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/FileReadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/InvalidAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/InvalidPersonException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/NestedTryCatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/advancedExceptionHandling/PersonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/ConcurrentHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/DeadlockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/ExecutorsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/FibonacciTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/ForkJoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/ImageProcessingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/SumTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/SynchronizedCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/ConcurrencyMultithreading/ThreadPoolExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +50,17 @@
   "keyToString": {
     "Application.AnnotationExample.executor": "Run",
     "Application.BoundedTypeExample.executor": "Run",
+    "Application.ConcurrentHashMapExample.executor": "Run",
     "Application.ConfigurationManager.executor": "Run",
     "Application.CopyMain.executor": "Run",
     "Application.CustomExceptionExample.executor": "Run",
+    "Application.DeadlockExample.executor": "Run",
+    "Application.ExecutorsExample.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FileDownloader.executor": "Run",
     "Application.FileReadExample.executor": "Run",
     "Application.FileWriteWithNIO.executor": "Run",
+    "Application.ForkJoinExample.executor": "Run",
     "Application.GenericMethodExample.executor": "Run",
     "Application.GenericStack.executor": "Run",
     "Application.IgCase.executor": "Run",
@@ -79,6 +85,8 @@
     "Application.Singleton.executor": "Run",
     "Application.StreamApiExample.executor": "Run",
     "Application.SwitchExpressionDemo.executor": "Run",
+    "Application.SynchronizedCounter.executor": "Run",
+    "Application.ThreadPoolExample.executor": "Run",
     "Application.ThreadSafeCache.executor": "Run",
     "Application.UserContext.executor": "Run",
     "Application.ValidationExample.executor": "Run",
@@ -119,13 +127,13 @@
       <recent name="JavaIOandNIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedTryCatchExample">
-    <configuration name="CustomExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.advancedExceptionHandling.CustomExceptionExample" />
+  <component name="RunManager" selected="Application.DeadlockPreventionExample">
+    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.ConcurrencyMultithreading.DeadlockExample" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intermediate.advancedExceptionHandling.*" />
+          <option name="PATTERN" value="Intermediate.ConcurrencyMultithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.advancedExceptionHandling.FileReadExample" />
+    <configuration name="DeadlockPreventionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.ConcurrencyMultithreading.DeadlockPreventionExample" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intermediate.advancedExceptionHandling.*" />
+          <option name="PATTERN" value="Intermediate.ConcurrencyMultithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedTryCatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.advancedExceptionHandling.NestedTryCatchExample" />
+    <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.ConcurrencyMultithreading.ExecutorsExample" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intermediate.advancedExceptionHandling.*" />
+          <option name="PATTERN" value="Intermediate.ConcurrencyMultithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.advancedExceptionHandling.PersonManager" />
+    <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.ConcurrencyMultithreading.ForkJoinExample" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intermediate.advancedExceptionHandling.*" />
+          <option name="PATTERN" value="Intermediate.ConcurrencyMultithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise6week1.StreamApiExample" />
+    <configuration name="SynchronizedCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.ConcurrencyMultithreading.SynchronizedCounter" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intermediate.Exercise6week1.*" />
+          <option name="PATTERN" value="Intermediate.ConcurrencyMultithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NestedTryCatchExample" />
-        <item itemvalue="Application.PersonManager" />
-        <item itemvalue="Application.FileReadExample" />
-        <item itemvalue="Application.CustomExceptionExample" />
-        <item itemvalue="Application.StreamApiExample" />
+        <item itemvalue="Application.DeadlockPreventionExample" />
+        <item itemvalue="Application.DeadlockExample" />
+        <item itemvalue="Application.ForkJoinExample" />
+        <item itemvalue="Application.ExecutorsExample" />
+        <item itemvalue="Application.SynchronizedCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +264,7 @@
       <workItem from="1721977799216" duration="1775000" />
       <workItem from="1722259742632" duration="1693000" />
       <workItem from="1722349427605" duration="141000" />
-      <workItem from="1722409895602" duration="10528000" />
+      <workItem from="1722409895602" duration="12614000" />
     </task>
     <servers />
   </component>
