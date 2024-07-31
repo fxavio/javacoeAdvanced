@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/BoundedTypeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/GenericMethodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/GenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +105,7 @@
       <recent name="JavaIOandNIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BoundedTypeExample">
+  <component name="RunManager" selected="Application.Validator">
     <configuration name="BoundedTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise2week1.BoundedTypeExample" />
       <module name="javacoeAdvanced" />
@@ -162,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise1week1StrategyPattern.ShoppingCartApp" />
+    <configuration name="Validator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise2week1.Validator" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intermediate.Exercise1week1StrategyPattern.*" />
+          <option name="PATTERN" value="Intermediate.Exercise2week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Validator" />
         <item itemvalue="Application.BoundedTypeExample" />
         <item itemvalue="Application.GenericStack" />
         <item itemvalue="Application.GenericMethodExample" />
         <item itemvalue="Application.Library" />
-        <item itemvalue="Application.ShoppingCartApp" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +242,7 @@
       <workItem from="1721977799216" duration="1775000" />
       <workItem from="1722259742632" duration="1693000" />
       <workItem from="1722349427605" duration="141000" />
-      <workItem from="1722409895602" duration="5251000" />
+      <workItem from="1722409895602" duration="6193000" />
     </task>
     <servers />
   </component>
