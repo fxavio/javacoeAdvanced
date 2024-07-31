@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1514798-5c9a-4692-b235-d952a80a066b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/GenericStackOld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/Exercise2week1/GenericStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
     "Application.SwitchExpressionDemo.executor": "Run",
     "Application.UserContext.executor": "Run",
     "Application.ValidationExample.executor": "Run",
+    "Application.Validator.executor": "Run",
     "Application.WordFrequencyCounter.executor": "Run",
     "Application.WriteMain.executor": "Run",
     "Application.concurrency.ParallelMatrixMultiplication.Main.executor": "Run",
@@ -105,7 +108,7 @@
       <recent name="JavaIOandNIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Validator">
+  <component name="RunManager" selected="Application.GenericStack">
     <configuration name="BoundedTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise2week1.BoundedTypeExample" />
       <module name="javacoeAdvanced" />
@@ -145,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise2week1.Library" />
+    <configuration name="GenericStackOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.Exercise2week1.GenericStackOld" />
       <module name="javacoeAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericStack" />
         <item itemvalue="Application.Validator" />
         <item itemvalue="Application.BoundedTypeExample" />
-        <item itemvalue="Application.GenericStack" />
+        <item itemvalue="Application.GenericStackOld" />
         <item itemvalue="Application.GenericMethodExample" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +245,7 @@
       <workItem from="1721977799216" duration="1775000" />
       <workItem from="1722259742632" duration="1693000" />
       <workItem from="1722349427605" duration="141000" />
-      <workItem from="1722409895602" duration="6193000" />
+      <workItem from="1722409895602" duration="6969000" />
     </task>
     <servers />
   </component>
