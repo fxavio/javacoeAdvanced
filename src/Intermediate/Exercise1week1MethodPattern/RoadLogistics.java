@@ -1,0 +1,7 @@
+package Intermediate.Exercise1week1MethodPattern;
+public class RoadLogistics extends Logistics {
+    @Override
+    public Transport createTransport() {
+        return new Truck();
+    }
+}
